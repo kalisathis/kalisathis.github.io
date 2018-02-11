@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<div class="container">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+<!--menu start-->
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#ta">Education</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Skills</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Gallery</a>
+  </li>
+</ul>
+<!--menu end-->
+
+<!--about sec start-->
+<section>
+
+<div class="row">
+  <div class="col-3"><img src="img/c.jpg" class="img-fluid" alt="Responsive image"></div>
+  <div class="col-8">S.Kalithas<br>B.Tech IT<br><b><h5 style="color:red">Contact:</h5></b></div>
+</div>
+</div>
+</section>
+<!--about section end-->
+<!-- table end-->
+<div class="container">
+<table class="table" id=ta>
+  <thead>
+    <tr>
+      <th scope="col">School</th>
+      <th scope="col">college</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- table end-->
+<!--skill start-->
+<div class="row">
+  <div class="col-1"><img src="img/d.svg" class="img-fluid" alt="Responsive image"></div>
+  <div class="col-1"><img src="img/e.png" class="img-fluid" alt="Responsive image"></div>
+   <div class="col-2"><img src="img/f.jpg" class="img-fluid" alt="Responsive image"></div>
+</div>
+<!--skill end-->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.1.1.slim.min.js" ></script>
+    <script src="js/tether.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
